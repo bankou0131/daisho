@@ -15,7 +15,7 @@ function render(){
     items.forEach(item=>{
         const tr=document.createElement("tr");
 
-        if (item.stock<item.minStock){
+        if (item.stock < item.minStock){
             tr.classList.add("low-stock");
         }
 
